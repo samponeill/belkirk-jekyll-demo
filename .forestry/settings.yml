@@ -6,18 +6,18 @@ webhook_url:
 sections:
 - type: heading
   label: Content
-- type: jekyll-posts
-  label: Posts
-  create: all
-  templates:
-  - posts
-  - post
 - type: jekyll-pages
   label: Pages
   create: all
   templates:
   - landing-page
   - page
+- type: jekyll-posts
+  label: Posts
+  create: all
+  templates:
+  - posts
+  - post
 - type: directory
   path: _people
   label: People
